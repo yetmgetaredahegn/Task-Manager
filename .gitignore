@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor/IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# FastAPI specific (if applicable)
+# Database files (e.g., SQLite)
+*.db
+*.sqlite3
+
+# Log files
+*.log
+
+# Uploaded files (if your API handles file uploads)
+uploads/
+
+# Pipenv
+Pipfile.lock # Include if you want to track locked dependencies, exclude if not.
